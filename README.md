@@ -1,5 +1,39 @@
-# Vue 3 + Vite
+# Queue Management System - Admin Panel
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Vue.js admin dashboard for managing queues in real-time.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Tech Stack
+- Vue.js 3
+- Vite
+- Tailwind CSS
+- Laravel Echo
+- Axios
+
+## Features
+- Real-time queue updates
+- Call next patient
+- Multi-counter management
+- Service type configuration
+- Live statistics
+
+## Setup
+```bash
+npm install
+```
+
+## Running
+```bash
+npm run dev
+```
+
+Access at: `http://localhost:5173`
+
+## Configuration
+
+Update API endpoint in `src/api.js`:
+```javascript
+baseURL: 'http://your-api-url/api'
+```
+
+## Related Projects
+- [Backend API](https://github.com/humphreyobure/queue-backend)
