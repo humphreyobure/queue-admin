@@ -36,4 +36,4 @@ baseURL: 'http://your-api-url/api'
 ```
 
 ## Related Projects
-- [Backend API](https://github.com/humphreyobure/queue-backend)
+- [Backend API](https://github.com/humphreyobure/queue-system)
